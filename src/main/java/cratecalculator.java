@@ -33,7 +33,7 @@ public class cratecalculator {
 
 
         System.out.println("Patlıcan kaç Kilo ? ");
-            double patlicantkg = scanner.nextDouble();         //ptl = Patlıcan TL (sonuç)
+            double patlicantkg = scanner.nextDouble();         //ptl = Patlican TL (sonuç)
 
 
         double ptl =  (patlicantkg * 5.00);
