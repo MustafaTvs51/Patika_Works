@@ -14,14 +14,16 @@ public class Main {
         int sum = 0;
 
 
-        // Sayının pozitif tam sayı çarpanlarını buluyoruz
-        for (int i = 1; i <= number; i++) { //Eğer i , sayının böleniyse i'yi toplamı ekliyoruz
+            //0 dan sayıya kadar döngü
+        for (int i = 1; i <= number; i++) {
+           // hem 3 e hem 4 bölünüyor mu ? Kontrol et.
             if (i % 3 == 0 && i % 4 == 0){
                sum += i;
               counter++;
             }
 
         }
+         // Ortalamayı hesapla ve yazdır
             if (counter > 0 ){
                 double gpa = (double) sum / counter;
                 System.out.println("3 ve 4'e tam bölünen sayıların ortalaması: " + gpa);
