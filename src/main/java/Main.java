@@ -15,7 +15,7 @@ public class Main {
 
 
             //0 dan sayıya kadar döngü
-        for (int i = 1; i <= number; i++) {
+        for (int i = 0; i <= number; i++) {
            // hem 3 e hem 4 bölünüyor mu ? Kontrol et.
             if (i % 3 == 0 && i % 4 == 0){
                sum += i;
