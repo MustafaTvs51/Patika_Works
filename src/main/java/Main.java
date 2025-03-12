@@ -46,6 +46,6 @@ public class Main {
             System.out.println("Toplam Tutar = " + new_value + " TL"); //toplam tutarı ekrana yazdıran kod bloğu
 
         }
-            System.out.println(",Bizi Tercih ettiğiniz için teşekkürler."); //Yeşil alanı ekrana yazdıran kod bloğu
+            System.out.println("Bizi Tercih ettiğiniz için teşekkürler."); //Yeşil alanı ekrana yazdıran kod bloğu
     }
 }
