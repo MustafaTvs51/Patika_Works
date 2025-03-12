@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class matrix_transpoz {
     public static void main(String[] args) {
-        // Kullanıcıdan matrisin boyutlarını al
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Matrisin satır sayısını girin: ");
@@ -11,7 +11,7 @@ public class matrix_transpoz {
         System.out.print("Matrisin sütun sayısını girin: ");
         int sutun = scanner.nextInt();
 
-        // Matrisin elemanlarını al
+        // Matrisin elemanlarını alıyoruz teker teker
         int[][] matris = new int[satir][sutun];
         System.out.println("Matrisin elemanlarını girin:");
         for (int i = 0; i < satir; i++) {
@@ -21,8 +21,8 @@ public class matrix_transpoz {
             }
         }
 
-        // Matrisin transpozunu hesapla
-        int[][] transpoz = new int[sutun][satir]; // Transpoz matrisinin boyutları ters olur
+        // Matrisin transpozunu hesaplama bloğu
+        int[][] transpoz = new int[sutun][satir]; // Transpoz matrisinin boyutları terstir
 
         for (int i = 0; i < satir; i++) {
             for (int j = 0; j < sutun; j++) {
@@ -30,7 +30,7 @@ public class matrix_transpoz {
             }
         }
 
-        // Verilen matrisi yazdır
+        // Verilen matrisi yazdıracak blok
         System.out.println("\nVerilen Matris:");
         for (int i = 0; i < satir; i++) {
             for (int j = 0; j < sutun; j++) {
@@ -39,7 +39,7 @@ public class matrix_transpoz {
             System.out.println();
         }
 
-        // Transpoz matrisini yazdır
+        // Transpozu yazdıracak blok.
         System.out.println("\nTranspoze Matris:");
         for (int i = 0; i < sutun; i++) {
             for (int j = 0; j < satir; j++) {
@@ -48,6 +48,5 @@ public class matrix_transpoz {
             System.out.println();
         }
 
-        scanner.close();
     }
 }
