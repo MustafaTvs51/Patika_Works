@@ -26,7 +26,7 @@ public class Valid_Password_Checker {
 
     public static boolean gecerlisifre(String sifre) {  //şifrede istenenler için bölüm oluşturuyoruz
 
-        if (sifre.length() < 8) { //Bu koşul doğruysa şifre geçerli değildir o yüzden return false kullanıldı.
+        if (sifre.length() < 8) { //Bu koşul doğruysa şifre geçerli değildir o yüzden return false kullanıldı..
             return false;
 
         }
