@@ -26,15 +26,14 @@ public class FindBetweenNumbers {
 
         //Eğer şuanki listedeki değerler arasındaki fark,şu ana kadar bulduğumuz en küçük farktan küçükseyi kontrol eden blok
         for (int i = 0; i < list.size() - 1 ; i++) {
-            int first = list.get(i);
-            int second = list.get(i+1);
+                int first = list.get( i );
+                int second = list.get(i + 1 );
 
             int diff = second - first;
-            if (diff < minDifference){
-                minDifference = diff;
-                closenumber1 = first;
-                closenumber2 = second;
-
+                 if (diff < minDifference){
+                    minDifference = diff;
+                    closenumber1 = first;
+                    closenumber2 = second;
             }
         }
         // Sonucu ekrana yazdıran blok.
