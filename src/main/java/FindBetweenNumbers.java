@@ -37,7 +37,7 @@ public class FindBetweenNumbers {
             }
         }
         // Sonucu ekrana yazdıran blok.
-        System.out.println("En yakın iki eleman " + closenumber1 +"ve" + closenumber2);
+        System.out.println("En yakın iki eleman " + closenumber1 +" ve " + closenumber2);
 
     }
 }
