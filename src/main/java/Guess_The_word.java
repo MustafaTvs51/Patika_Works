@@ -9,8 +9,8 @@ public class Guess_The_word {
 
         Random random = new Random();
 
-        char [] alfabe = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray(); //GHIJKLMNOPQRSTUVWXYZ
-        //Kullancıdan 4 tane ratgele harf ekliyoruz
+        char [] alfabe = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray();
+        // 4 tane ratgele harf ekliyoruz
 
         for (int i = 0; i < 4; i++) {
 
