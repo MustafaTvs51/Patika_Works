@@ -1,4 +1,13 @@
-package PACKAGE_NAME;
+public class Generic<T> {
 
-public class Generic {
+
+    private T content;
+
+    public T getContent() {
+        return content;
+    }
+
+    public void setContent(T content) {
+        this.content = content;
+    }
 }

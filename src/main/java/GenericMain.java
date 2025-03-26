@@ -1,26 +1,21 @@
-public class GenericMethod {
+public class GenericMain {
+
+
     public static void main(String[] args) {
 
 
 
 
+        Integer integerArray[] = {1, 2, 3, 4, 5};
+        GenericMethodArray.printArray(integerArray);
 
-    }
+        Double doubleArray[] ={2.4, 2.9, 7.5, 9.5};
+        GenericMethodArray.printArray(doubleArray);
 
-    public void printArray(){
-
-        Generic<String> stringArray = new Generic<>();
-        System.out.println(stringArray);
-
-        Generic<Integer> integerArray = new Generic<>();
-        System.out.println(integerArray);
-
-        Generic<Double> doubleArray = new Generic<>();
-        System.out.println(doubleArray);
-
+        String stringArray [] = {"Java,Generics,Ödev"};
+        GenericMethodArray.printArray(stringArray);
 
 
     }
-
 
 }
