@@ -1,5 +1,7 @@
 package Student_Record;
 
+import java.util.function.Function;
+
 public class StudentMain {
     public static void main(String[] args) {
 
@@ -14,7 +16,10 @@ public class StudentMain {
 
         System.out.println("student1 equals student3: " + student1.equals(student3));
         System.out.println("student1 hashCode == student3 hashCode: " + (student1.hashCode() == student3.hashCode()));
+
+
     }
+
 
 }
 
