@@ -1,3 +1,5 @@
+package Maxtrix_Transpoze;
+
 import java.util.Scanner;
 
 public class matrix_transpoz {

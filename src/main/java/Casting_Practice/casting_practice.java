@@ -1,3 +1,5 @@
+package Casting_Practice;
+
 import java.util.Scanner;
 
 public class casting_practice {

@@ -1,3 +1,5 @@
+package Valid_Password_Check;
+
 import java.util.Scanner;
 
 public class Valid_Password_Checker {

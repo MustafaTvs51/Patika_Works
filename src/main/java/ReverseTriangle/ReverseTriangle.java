@@ -1,3 +1,5 @@
+package ReverseTriangle;
+
 import java.util.Scanner;
 
 public class ReverseTriangle {

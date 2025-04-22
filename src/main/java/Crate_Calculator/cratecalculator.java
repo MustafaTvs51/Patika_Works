@@ -1,3 +1,5 @@
+package Crate_Calculator;
+
 import java.util.Scanner;
 
 public class cratecalculator {

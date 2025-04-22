@@ -1,3 +1,5 @@
+package ChineseZodiac;
+
 import java.util.Scanner;
 
 public class ChineseMain {

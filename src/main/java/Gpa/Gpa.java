@@ -1,3 +1,5 @@
+package Gpa;
+
 import java.util.Scanner;
 
 public class Gpa {

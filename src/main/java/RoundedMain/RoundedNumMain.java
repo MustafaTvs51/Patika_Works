@@ -1,3 +1,5 @@
+package RoundedMain;
+
 import java.util.Scanner;
 
 public class RoundedNumMain {

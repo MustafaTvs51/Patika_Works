@@ -1,10 +1,12 @@
-public class Employee {
+package Employee_Calculator;
+
+public class EmployeeCalculator {
     private   static String name;
     private double salary;
     private int weeklyWorkHours;
     private int hireYear;
 
-    public Employee(String name, double salary, int weeklyWorkHours, int hireYear){
+    public EmployeeCalculator(String name, double salary, int weeklyWorkHours, int hireYear){
         this.name = name;
         this.salary = salary;
         this.weeklyWorkHours = weeklyWorkHours;
@@ -57,7 +59,7 @@ public class Employee {
     }
 
     public static void main(String[] args) {
-        Employee employee = new Employee("Mustafa Tavusbay",2000,45,1985);
+        EmployeeCalculator employee = new EmployeeCalculator("Mustafa Tavusbay",2000,45,1985);
         System.out.println(employee.toString());
     }
 

@@ -1,3 +1,5 @@
+package Guess_The_Word;
+
 import java.util.*;
 
 public class Guess_The_word {

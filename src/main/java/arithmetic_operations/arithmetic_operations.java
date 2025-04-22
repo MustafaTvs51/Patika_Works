@@ -1,3 +1,5 @@
+package arithmetic_operations;
+
 import java.util.Scanner;
 
 public class arithmetic_operations {

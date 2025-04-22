@@ -1,3 +1,5 @@
+package FlightTicket;
+
 import java.util.Scanner;
 
 public class FlightTicket {
