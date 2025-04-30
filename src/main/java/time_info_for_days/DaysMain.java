@@ -42,7 +42,8 @@ public class DaysMain {
                     break;
                 case 8:
                     running = false;
-
+                    System.out.println("Çıkış yapıldı.");
+                    break;
                 default:
                     System.out.println("An incorrect entry was made!");
 
