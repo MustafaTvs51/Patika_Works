@@ -61,15 +61,15 @@ insert into employee (name, birthday, email) values ('Basilius', '06-12-2021', '
 
 UPDATE employee
 SET name = 'Mustafa Tavusbay',
-    birthday = '2004-07-02',
-    email = 'mustafatvs@example.com'
+birthday = '2004-07-02',
+email = 'mustafatvs@example.com'
 WHERE id = 1;
 
 -------------------------------------
 
 UPDATE employee
 SET email = 'update_name@exmpl.com',
-    birthday = '1985-05-05'
+birthday = '1985-05-05'
 WHERE name = 'Selcuk';
 
 -------------------------------------
@@ -82,14 +82,14 @@ WHERE email = 'chngedname_@example.com';
 
 UPDATE employee
 SET name = 'Birthday Match',
-    email = 'bdaymatch@example.com'
+email = 'bdaymatch@example.com'
 WHERE birthday = '1970-12-10';
 
 -------------------------------------
 
 UPDATE employee
 SET id = 99,
-    name = 'Update ID and Name'
+name = 'Update ID and Name'
 WHERE email = 'updated_name@example.com';
 
 ----------------------------------------DELETE-----------------------------------
